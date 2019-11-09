@@ -1,3 +1,63 @@
-h1{
+html {
+  background-color: #fff;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: .3em;
   text-align: center;
+  color: #fff;
+  font-family: Merriweather;
+}
+
+body {
+  text-align: center;
+  background-color: #d05c2e;
+  font-family: Merriweather;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+  padding: .4rem 0;
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: #dbd6cf;
+  text-decoration: none;
+  background-color: #d05c2e;
+  padding: .6em .5em .75em;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+img{
+  width: 40px;
+
+}
+ul {
+  color: #fff;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #a63f38;
+  color: #dbd6cf;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
