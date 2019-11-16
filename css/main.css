@@ -9,6 +9,7 @@ h1 {
   text-align: center;
   color: #fff;
   font-family: Merriweather;
+  padding: .5em 0;
 }
 
 body {
@@ -23,11 +24,13 @@ body {
   line-height: 1.5em;
 }
 
-
-
-ul {
+a{
   color: #fff;
-  list-style-type: none;
+  text-decoration: none;
+}
+
+ul{
+list-style-type:none;
 }
 
 li {
@@ -41,4 +44,11 @@ a:hover {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img{
+  width: 40px;
+}
+
+.grain-right{
 }
