@@ -1,17 +1,24 @@
 html {
   background-color: #fff;
-  margin: 0;
-  box-sizing: border-box;
 }
 
-h1 {
-  margin: 0em;
-  text-align: center;
-  color: #fff;
-  font-family: Merriweather;
-  padding: .5em 0;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
+.grain-left{
+  float: left;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+
+}
+
+.grain-right{
+  float: right;
+}
 body {
   text-align: center;
   background-color: #d05c2e;
@@ -24,31 +31,29 @@ body {
   line-height: 1.5em;
 }
 
-a{
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  margin: .5em 0;
+}
+
+a {
   color: #fff;
   text-decoration: none;
 }
 
-ul{
-list-style-type:none;
-}
-
-li {
-  display: inline-block;
-}
-
 a:hover {
   background-color: #a63f38;
-  color: #dbd6cf;
+  color: #dbd6cf
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
-img{
+img {
   width: 40px;
-}
-
-.grain-right{
 }
