@@ -18,7 +18,6 @@ body {
   color: #fff;
   margin: 0;
   padding: .5rem;
-  font-size: 2rem;
   line-height: 1.5em;
   padding-bottom: 0;
 }
@@ -54,7 +53,7 @@ img {
   background-color: #d05c2e;
   text-align: center;
   margin: 1px;
-  line-height: 1.125rem;
+  line-height: 1.5rem;
   font-size: 1.125rem;
   width: 100%;
 }
@@ -62,12 +61,12 @@ img {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: .5em;
   justify-content: space-between;
 }
 
 nav li {
-  margin: .5em;
+  margin: 0;
 }
 
 a {
