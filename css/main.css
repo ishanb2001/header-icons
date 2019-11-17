@@ -3,12 +3,12 @@ html {
   font-family: Merriweather, bold;
   line-height: 1.5;
   margin: 0;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 
 body {
   text-align: center;
@@ -27,28 +27,27 @@ img {
   width: 40px;
 }
 
-.grain-left{
+.grain-left {
   display: flex;
   float: left;
-
 }
 
-.center{
+.center {
   display: inline-block;
   padding-bottom: 10px;
-
 }
-.grain-right{
+
+.grain-right {
   display: flex;
   float: right;
-
 }
 
 .flex-container {
   display: flex;
   background-color: #a63f38;
   position: relative;
-  padding-bottom: 0.4rem;
+  padding-bottom: .4rem;
+  align-items: center;
 }
 
 .flex-container > div {
@@ -58,17 +57,16 @@ img {
   line-height: 1.125rem;
   font-size: 1.125rem;
   width: 100%;
-
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   justify-content: space-between;
 }
 
-nav li{
+nav li {
   margin: .5em;
 }
 
@@ -79,5 +77,5 @@ a {
 
 .flex-container > div:hover {
   background-color: #a63f38;
-  color: #dbd6cf
+  color: #dbd6cf;
 }
