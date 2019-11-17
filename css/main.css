@@ -10,7 +10,7 @@ html {
   display: flex;
   background-color: #a63f38;
   position: relative;
-  padding-bottem: 0.4rem;
+  padding-bottom: 0.4rem;
 }
 
 .flex-container > div {
@@ -24,6 +24,7 @@ html {
 
 }
 .grain-left{
+  display:flex;
   float: left;
 }
 
@@ -34,6 +35,7 @@ html {
 }
 
 .grain-right{
+  display: flex;
   float: right;
 }
 body {
@@ -52,12 +54,11 @@ nav ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
   justify-content: space-between;
 }
 
 nav li{
-  margin: .5em 0;
+  margin: .5em;
 }
 
 a {
@@ -70,6 +71,10 @@ a:hover {
   color: #dbd6cf
 }
 
+.flex-conatiner > div:hover{
+  background-color: #a63f38;
+  color: #dbd6cf;
+}
 
 img {
   width: 40px;
