@@ -43,7 +43,7 @@ img {
 
 .flex-container {
   display: flex;
-  background-color: #a63f38;
+  background-color: #d05c2e;
   position: relative;
   padding-bottom: .4rem;
   align-items: center;
@@ -76,7 +76,7 @@ a {
   text-decoration: none;
 }
 
-.flex-container > div:hover {
+a:hover {
   background-color: #a63f38;
   color: #dbd6cf;
 }
